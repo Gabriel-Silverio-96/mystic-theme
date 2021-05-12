@@ -2,6 +2,7 @@
 	"name": "mystic-theme",
 	"type": "dark",		
 	"colors": {
+		//Main colors editor
 		"editor.background": "#0f0f0f",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#ae28fc",
@@ -16,6 +17,7 @@
 		"activityBar.foreground": "#ffffff", //Color icons
 		"activityBar.inactiveForeground": "#6e6e6e",
 
+		//Badge
 		"badge.background": "#ae28fc",
 		"badge.foreground": "#ffffff",
 
@@ -30,12 +32,10 @@
 
 		//Top header
 		"titleBar.activeBackground": "#0f0f0f",
-		//"titleBar.activeForeground": "#ff0000",
 
 		//Menu drop
 		"menu.background": "#161616",
 		"menu.selectionBackground": "#ae28fc",
-		//"menubar.selectionBackground": "#ae28fc",
 
 		//Tabs
 		"tab.lastPinnedBorder": "#ae28fc",
@@ -45,9 +45,12 @@
 
 		//Notification
 		"notifications.background": "#0f0f0f",
-
-		"statusBar.background": "#ae28fc"
 		
+		"textLink.foreground": "#b27ff7",
+		"textLink.activeForeground": "#ffffff",
+
+		//Footer
+		"statusBar.background": "#ae28fc"
 	},
 	"tokenColors": [
 		{
@@ -84,7 +87,7 @@
 			"name": "Invalid",
 			"scope": [
 				"invalid",
-				"invalid.illegal"
+				"invalid.illegal"				
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -99,6 +102,7 @@
 				"keyword.control"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#B27FF7"
 			}
 		},
@@ -133,12 +137,12 @@
 		},
 		{
 			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
+			"scope": [				
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#33FF8B"
@@ -147,10 +151,10 @@
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other",
+				"meta.block",
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#FFB300"
 			}
 		},
@@ -173,7 +177,7 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",								
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -183,8 +187,7 @@
 		{
 			"name": "Constant",
 			"scope": [
-				"constant.language",
-
+				"constant.language",				
 			],
 			"settings": {
 				"foreground": "#ff4545"
@@ -199,16 +202,28 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"entity.name",
+				"variable.other"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",				
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#84dbfd"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
@@ -251,7 +266,7 @@
 				"source.postcss support.type.property-name",
 			],
 			"settings": {
-				"foreground": "#929292"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -308,11 +323,20 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",				
 			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#b27ff7"
+			}
+		},			
+		{
+			"name": "HTML Text",
+			"scope": [
+				"text.html.derivative"		
+			],
+			"settings": {				
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -527,7 +551,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#33ff8b"
 			}
 		},
 		{
@@ -573,7 +597,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#C3E88D"
+				"foreground": "#b27ff7",				
 			}
 		},
 		{
@@ -591,7 +615,8 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#84dbfd"
 			}
 		},
 		{
@@ -600,7 +625,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#FFE600"
+				"foreground": "#ffb300"
 			}
 		},
 		{
