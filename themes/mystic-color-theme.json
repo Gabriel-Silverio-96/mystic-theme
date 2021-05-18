@@ -548,12 +548,35 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading.markdown punctuation.definition.heading.markdown",								
 			],
 			"settings": {
 				"foreground": "#33ff8b"
 			}
-		},
+		},		
+		{
+			"name": "Markdown - Text",
+			"scope": [
+				"entity.name",
+				"markup.list.unnumbered",
+				"markup.inline.raw",
+				"markup.fenced_code.block.markdown punctuation.definition.markdown"				
+			],
+			"settings": {
+				"foreground": "#33ff8b"
+			}
+		},		
+		{
+			"name": "Markdown - List",
+			"scope": [				
+				"markup.list.unnumbered",
+				"markup.list.numbered",
+				"markup.list"
+			],
+			"settings": {
+				"foreground": "#b27ff7"
+			}
+		},		
 		{
 			"name": "Markup - Italic",
 			"scope": [
@@ -597,7 +620,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#b27ff7",				
+				"foreground": "#84DBFD",				
 			}
 		},
 		{
