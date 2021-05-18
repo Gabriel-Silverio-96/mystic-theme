@@ -1,13 +1,21 @@
-# README
-## This is the README for your extension "mystic-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+<p align="center">
+    <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/118726391-a0fab980-b807-11eb-952e-4c611c1ad94d.png" />
+</p>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<h2 align="center">
+  Mystic theme
+</h2> 
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+<p  align="center">
+  <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/118726463-b8d23d80-b807-11eb-8871-7a582fb83016.png" />
+</p>
 
-**Enjoy!**
+### Install
+
+1. Press ```ctrl + shift + p``` or ```cmd + shift + p```
+
+2. Write Intall Extension and select option
+
+3. Search **Mystic theme**
+
+4. Click install
