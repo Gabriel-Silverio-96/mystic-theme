@@ -1,14 +1,25 @@
 {
     "name": "mystic-theme",
-    "displayName": "mystic-theme",
-    "description": "mystic theme vsCode",
+    "displayName": "Mystic",
+    "description": "mystic theme dark vsCode",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.56.0"
+        "vscode": "^1.56.0"        
     },
     "categories": [
-        "Themes"
+        "Themes"        
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gabriel-Silverio-96/mystic-theme"
+    },
+    "keywords": [
+		"mystic",
+		"color-theme",
+		"dark",
+		"theme"
+	],
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
