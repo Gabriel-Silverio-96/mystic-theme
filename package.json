@@ -2,6 +2,7 @@
     "name": "mystic-theme",
     "displayName": "Mystic",
     "description": "mystic theme dark vsCode",
+    "publisher": "mystic-theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"        
