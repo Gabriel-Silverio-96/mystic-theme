@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/118726391-a0fab980-b807-11eb-952e-4c611c1ad94d.png" />
+    <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/120893528-2ba22d80-c5ea-11eb-9edf-5522d35f51a9.png" />
 </p>
 
 <h2 align="center">
@@ -7,7 +7,7 @@
 </h2> 
 
 <p  align="center">
-  <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/118726463-b8d23d80-b807-11eb-8871-7a582fb83016.png" />
+  <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/120893596-7ae85e00-c5ea-11eb-82bf-9eecc135217b.PNG" />
 </p>
 
 ### Install
