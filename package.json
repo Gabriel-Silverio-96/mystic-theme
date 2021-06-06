@@ -1,9 +1,9 @@
 {
     "name": "mystic-theme",
     "displayName": "Mystic",
-    "description": "mystic theme dark vsCode",
+    "description": "Mystic theme dark Visual studio code",
     "publisher": "mystic-theme",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.56.0"        
     },
@@ -24,9 +24,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "mystic",
+                "label": "Mystic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mystic-color-theme.json"
+            },
+            {
+                "label": "Mystic soft",
+                "uiTheme": "vs-dark",
+                "path": "./themes-soft/mystic-color-theme.json"
             }
         ]
     }
