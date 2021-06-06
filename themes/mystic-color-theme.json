@@ -49,8 +49,12 @@
 		"textLink.foreground": "#b27ff7",
 		"textLink.activeForeground": "#ffffff",
 
-		//Footer
-		"statusBar.background": "#ae28fc"
+		//statusBar
+		"statusBar.background": "#0f0f0f",
+		"statusBar.debuggingBackground": "#ae28fc",
+
+		//Debug
+		"debugToolBar.background": "#0f0f0f"
 	},
 	"tokenColors": [
 		{
