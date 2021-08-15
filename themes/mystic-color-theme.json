@@ -104,7 +104,19 @@
 				"storage.modifier",
 				"keyword.other.var.cs",
 				"keyword.other.using.cs",
-				"keyword.control"
+				"keyword.control",
+				"keyword.operator.optional.tsx",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B27FF7"
+			}
+		},
+		{
+			"name": "Typescript React, Typescript",
+			"scope": [
+				"keyword.operator.optional.tsx",
+				"keyword.operator.optional.ts",
 			],
 			"settings": {
 				"fontStyle": "",

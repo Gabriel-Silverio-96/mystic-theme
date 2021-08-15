@@ -109,6 +109,17 @@
 			}
 		},
 		{
+			"name": "Typescript React, Typescript",
+			"scope": [
+				"keyword.operator.optional.tsx",
+				"keyword.operator.optional.ts",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#B27FF7"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"constant.other.color",
