@@ -7,7 +7,7 @@
 </h2> 
 
 <p  align="center">
-  <img alt="Logo Mystic theme" src="https://user-images.githubusercontent.com/53228013/120893596-7ae85e00-c5ea-11eb-82bf-9eecc135217b.PNG" />
+  <img alt="Background Mystic theme" src="https://user-images.githubusercontent.com/53228013/200439033-181b4e80-ada9-4013-806c-966297714c92.png" />
 </p>
 
 ### Install
